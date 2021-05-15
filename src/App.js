@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Forgotten from "./components/Forgotten";
+import MyHeader from "./components/Header";
+import Sidenav from "./components/Sidenav";
+import HomeView from "./views/HomeView";
+import React from "react";
+import Filter from "./components/Filter";
+import ModalBtn from "./components/ModalBtn";
+import Record from "./components/Record";
+import RecordView from "./views/RecordView";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Sidenav />
+          <RecordView/>
     </div>
   );
 }
