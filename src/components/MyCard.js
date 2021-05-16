@@ -23,13 +23,24 @@ const CardContainer = styled.div`
     padding: 2px 16px;
   `
 
-export default function MyCard(){
+export default function MyCard({user, stats}){
+
+    if(user)
+        return (
+            <Card className={"card text-light "+stats}>
+                <CardContainer className={"container"}>
+                    <h6>Username</h6>
+                    <h6 className={"text-info"}>šta je</h6>
+                    <h6 className={"text-black-50"}>Status: xyu</h6>
+                </CardContainer>
+            </Card>
+        );
 
     return (
         <Card className={"card"}>
             <CardContainer className={"container"}>
                 <h6>Naziv predmeta</h6>
-                <h6 className={"text-info   "}>termin</h6>
+                <h6 className={"text-info"}>termin</h6>
                 <h6 className={"text-black-50"}>Vrsta (AV, LV)</h6>
             </CardContainer>
         </Card>

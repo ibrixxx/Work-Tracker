@@ -9,7 +9,7 @@ export default function RecordView() {
         <div className={"main"}>
             <MyHeader/>
             <Filter/>
-            <ModalBtn/>
+            <ModalBtn text={"Add new record"} admin={true}/>
             <div className={"myRecords"}>
                 <Record/>
                 <Record/>
