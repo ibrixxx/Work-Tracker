@@ -17,7 +17,7 @@ export default function UsersView() {
 
     return (
         <div className={"main"}>
-            <MyHeader/>
+            <MyHeader name={"Users"}/>
             <UserFilter />
             <ModalBtn text={"Add new user"} user={true}/>
             <Adiv>

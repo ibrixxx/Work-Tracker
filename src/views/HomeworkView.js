@@ -11,8 +11,8 @@ export default function HomeworkView() {
 
     return (
         <div className={"main"}>
-            <MyHeader/>
-            <h3 className={"text-info mt-3 fw-bold"}>My tasks</h3>
+            <MyHeader name={"Homework"}/>
+            <h3 className={"text-info m-4 border-bottom font-monospace"}>My tasks</h3>
             <MyHomework/>
             <div className={"m-3"}>
                 <Button variant={"outline-success"} className={"mx-3"} onClick={()=>{setAdd(!add)}}>Request new homework</Button>

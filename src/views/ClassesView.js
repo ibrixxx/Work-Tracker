@@ -10,7 +10,7 @@ export default function ClassesView(props) {
 
     return (
         <div className={"main"}>
-            <MyHeader/>
+            <MyHeader name={"Classes"}/>
             <ClassFilter />
             <div hidden={!props.admin}>
                 <ModalBtn text={"Add new class"} admin={false} />

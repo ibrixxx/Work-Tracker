@@ -20,7 +20,7 @@ export default function AdminHomework() {
 
     return (
         <div className={"main"}>
-            <MyHeader/>
+            <MyHeader name={"Homework"}/>
             <div className={"m-3"}>
                 <Button variant={"outline-success"} className={"mx-3"} onClick={()=>{setAdd(!add)}}>Add new homework</Button>
                 <Button variant={"outline-info"} className={"mx-3"} onClick={()=>{setSee(!see)}}>See requests</Button>

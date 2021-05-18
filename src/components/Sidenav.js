@@ -7,7 +7,6 @@ import {
     FaRegListAlt,
     FiUsers,
     GiNetworkBars,
-    IoInvertModeOutline,
     IoSettingsOutline
 } from "react-icons/all";
 
@@ -24,7 +23,6 @@ function Sidenav({admin}){
                     <Nav.Link eventKey="link-3" className={"text-info"}><h6 id={"link-1"}><FaRegListAlt/> Classes</h6></Nav.Link>
                     <Nav.Link eventKey="link-4" className={"text-info"}><h6 id={"link-1"}><FiUsers/> Users</h6></Nav.Link>
                     <Nav.Link eventKey="link-5" className={"text-info"}><h6 id={"link-1"}><IoSettingsOutline/> Settings</h6></Nav.Link>
-                    <Nav.Link eventKey="link-5" className={"text-info"}><h6 id={"link-1"}><IoInvertModeOutline/> Style</h6></Nav.Link>
                 </Nav>
             </div>
         );
@@ -37,7 +35,6 @@ function Sidenav({admin}){
                 <Nav.Link eventKey="link-1" className={"text-info"}><h6 id={"link-1"}><BiTask/> Held lectures</h6></Nav.Link>
                 <Nav.Link eventKey="link-2" className={"text-info"}><h6 id={"link-1"}><GiNetworkBars/> Homework</h6></Nav.Link>
                 <Nav.Link eventKey="link-3" className={"text-info"}><h6 id={"link-1"}><FaRegListAlt/> Classes</h6></Nav.Link>
-                <Nav.Link eventKey="link-4" className={"text-info"}><h6 id={"link-1"}><IoInvertModeOutline/> Style</h6></Nav.Link>
                 <Nav.Link eventKey="link-5" className={"text-info"}><h6 id={"link-1"}><IoSettingsOutline/> Settings</h6></Nav.Link>
                 <Nav.Link eventKey="disabled" disabled>
                     <FiUsers/> Users

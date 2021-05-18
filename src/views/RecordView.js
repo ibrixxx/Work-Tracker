@@ -7,7 +7,7 @@ import Record from "../components/Record";
 export default function RecordView() {
     return (
         <div className={"main"}>
-            <MyHeader/>
+            <MyHeader name={"Records"}/>
             <Filter/>
             <ModalBtn text={"Add new record"} admin={true}/>
             <div className={"myRecords"}>

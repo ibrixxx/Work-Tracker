@@ -14,14 +14,15 @@ import AdminHomework from "./views/AdminHomework";
 import HomeworkView from "./views/HomeworkView";
 import ClassesView from "./views/ClassesView";
 import UsersView from "./views/UsersView";
+import SettingsView from "./views/SettingsView";
 
 
 
 function App() {
   return (
     <div className="App">
-        <Sidenav admin={true}/>
-        <UsersView />
+        <Sidenav admin={false}/>
+        <HomeView />
     </div>
   );
 }

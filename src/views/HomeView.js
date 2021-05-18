@@ -5,8 +5,8 @@ import MainCard from "../components/MainCard";
 export default function HomeView() {
     return (
         <div className={"main"}>
-            <MyHeader/>
-            <h3 className={"text-dark m-4 border-bottom font-monospace"}>Next seven days</h3>
+            <MyHeader name={"Home"}/>
+            <h3 className={"text-info m-4 border-bottom font-monospace"}>Next seven days</h3>
             <ul className={"scrollmenu"}>
                 <li className={"cards"}> <MainCard/> </li>
                 <li className={"cards"}> <MainCard/> </li>
