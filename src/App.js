@@ -21,8 +21,8 @@ import SettingsView from "./views/SettingsView";
 function App() {
   return (
     <div className="App">
-        <Sidenav admin={false}/>
-        <HomeView />
+        <Sidenav />
+        <SettingsView />
     </div>
   );
 }
