@@ -7,13 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import firebase from "firebase";
 import("firebase/firestore");
 const firebaseConfig = {
-    apiKey: "AIzaSyDpYkaWmLinGl0jEtfNru5zUwbSJ9zgpbg",
+    apiKey: "***",
     authDomain: "savvy-bit-299521.firebaseapp.com",
-    projectId: "savvy-bit-299521",
+    projectId: "***",
     storageBucket: "savvy-bit-299521.appspot.com",
-    messagingSenderId: "972557134652",
-    appId: "1:972557134652:web:923c9a05f3cefcc4d00c39",
-    measurementId: "G-WRGQ82P9RN"
+    messagingSenderId: "***",
+    appId: "***",
+    measurementId: "***"
 };
 
 firebase.initializeApp(firebaseConfig);
